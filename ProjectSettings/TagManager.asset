@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DeathZone
+  - RespawnPoint
+  - Enemy
+  - SightArea
+  - Obstacle
+  - Enemiesprojectile
+  - Next Location
+  - Previous Location
+  - EnergyEmision
+  - Neutrals
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGroundFar
+    uniqueID: 3430312829
+    locked: 0
+  - name: BackGroundCLose
+    uniqueID: 3859355941
+    locked: 0
+  - name: FarDecor
+    uniqueID: 547960889
+    locked: 0
+  - name: Platforms
+    uniqueID: 3900522897
+    locked: 0
+  - name: Entities
+    uniqueID: 699518651
+    locked: 0
+  - name: CloseDecor
+    uniqueID: 2507716703
+    locked: 0
+  - name: Top
+    uniqueID: 102301339
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

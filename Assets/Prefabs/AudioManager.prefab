@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &57684413868343209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 57684413868343222}
+  - component: {fileID: 57684413868343223}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &57684413868343222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57684413868343209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &57684413868343223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57684413868343209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3450607e5931304bb8d324f5d62a658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MGDeath
+    clip: {fileID: 8300000, guid: 21a5aea0d78102143b3328762046dca1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MGShoot
+    clip: {fileID: 8300000, guid: e82ecffb13ab282428e7de5960a77a15, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Triggered
+    clip: {fileID: 8300000, guid: 3599760e322c4d74b8e5e3fd9c9315fe, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HAGDeath
+    clip: {fileID: 8300000, guid: 961d2a85aec85b24f800e0b208d61cbd, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: JEShot
+    clip: {fileID: 8300000, guid: 26bb89ef42a38a04f9a9d47c7a97f9f5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AwLoSoDeath
+    clip: {fileID: 8300000, guid: 7940b3c44e58d1d488ce1d0ad14eb51b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LSEPShot
+    clip: {fileID: 8300000, guid: e28fae36921c24c40a479809cfc320a7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: NegEmDeath
+    clip: {fileID: 8300000, guid: e2e8953538453484b9ee2fbb7917c95d, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: 46175fdaead5f2545999f17e33f83a67, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PortalSound
+    clip: {fileID: 8300000, guid: 58a0c352f4d51f946b6317d583c6eacf, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SaveSound
+    clip: {fileID: 8300000, guid: 3ebfff36f80234642bd9db13e7656bd9, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LSEPHit
+    clip: {fileID: 8300000, guid: 64471fa41a3e3474baf5493964a32dd1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: JEHit
+    clip: {fileID: 8300000, guid: 452a878acdbff524c91ae3b0b9c018fc, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MGHit
+    clip: {fileID: 8300000, guid: 278912681362952409968d3b8cf93b5c, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: NegEmHit
+    clip: {fileID: 8300000, guid: 7848b107a179bde41a843f2a8f62a92f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: 1LocTheme
+    clip: {fileID: 8300000, guid: ce0e764b1c4b2fa4fbdf693460ba4a89, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: 2LocTheme
+    clip: {fileID: 8300000, guid: 428e5b139abf91149a79295163b177f1, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
