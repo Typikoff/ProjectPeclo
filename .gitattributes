@@ -1,3 +1,24 @@
+# Image formats:
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+
+# Audio formats:
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.aiff filter=lfs diff=lfs merge=lfs -text
+# 3D model formats:
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+# Unity formats:
+*.sbsar filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+# Other binary formats
+*.dll filter=lfs diff=lfs merge=lfs -text
+# My try to solve the problem. Howewer it is not working
 Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostlin/lld filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst@1.6.6/.Runtime/libburst-llvm-10.dylib filter=lfs diff=lfs merge=lfs -text
@@ -8,21 +29,15 @@ Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=
 *.controller filter=lfs diff=lfs merge=lfs -text
 *.mat filter=lfs diff=lfs merge=lfs -text
 *.asset filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
 *.prefab filter=lfs diff=lfs merge=lfs -text
 *.physicsMaterial2D filter=lfs diff=lfs merge=lfs -text
-*.unity filter=lfs diff=lfs merge=lfs -text
 *.cs filter=lfs diff=lfs merge=lfs -text
-*.wav filter=lfs diff=lfs merge=lfs -text
 *.mixer filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
 *.png~ filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.ttf filter=lfs diff=lfs merge=lfs -text
 *.TTF filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
 *.shader filter=lfs diff=lfs merge=lfs -text
 *.cginc filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
@@ -3921,7 +3936,6 @@ Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=
 *.PNG filter=lfs diff=lfs merge=lfs -text
 *.uxml filter=lfs diff=lfs merge=lfs -text
 *.uss filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 *.bundle filter=lfs diff=lfs merge=lfs -text
 *.asmdef filter=lfs diff=lfs merge=lfs -text
@@ -3946,7 +3960,6 @@ Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=
 *.xml filter=lfs diff=lfs merge=lfs -text
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
 /Library/PackageManager/ProjectCache filter=lfs diff=lfs merge=lfs -text
 *.md5 filter=lfs diff=lfs merge=lfs -text
 /Library/PlayerDataCache/Win64/Data/Resources/unity_builtin_extra filter=lfs diff=lfs merge=lfs -text
@@ -6763,7 +6776,6 @@ Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=
 /Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/Noise/README filter=lfs diff=lfs merge=lfs -text
 *.api filter=lfs diff=lfs merge=lfs -text
 *.po filter=lfs diff=lfs merge=lfs -text
-*.fbx filter=lfs diff=lfs merge=lfs -text
 *.playable filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.signal filter=lfs diff=lfs merge=lfs -text
